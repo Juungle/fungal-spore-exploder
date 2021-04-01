@@ -1,0 +1,26 @@
+{
+  "name": "juungle-fungal-spore-exploder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev ./src/Run.ts",
+    "lint": "tsc --noEmit && eslint 'src/*.{js,ts,tsx}'"
+  },
+  "dependencies": {
+    "bchaddrjs-slp": "^0.2.12",
+    "bitcore-lib-cash": "^8.25.7",
+    "dotenv": "^8.2.0",
+    "grpc-bchrpc-node": "^0.15.0",
+    "slp-mdm": "^0.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "@types/sinon": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "eslint": "^6.7.2",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^3.9.7"
+  }
+}
