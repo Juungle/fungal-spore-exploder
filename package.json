@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev ./src/Run.ts",
+    "build": "tsc -p .",
+    "start": "node build/Run.js",
     "lint": "tsc --noEmit && eslint 'src/*.{js,ts,tsx}'"
   },
   "dependencies": {
