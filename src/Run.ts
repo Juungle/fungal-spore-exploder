@@ -6,7 +6,7 @@ const fundingPrivateKey = bitcore.PrivateKey.fromString(Config.fundingWif);
 const fundingAddress = fundingPrivateKey.toAddress();
 
 
-async function main() {
+async function main(): Promise<void> {
     const args = process.argv.slice(2);
 
     if (args.length < 1) {
