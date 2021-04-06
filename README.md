@@ -18,6 +18,7 @@ This repo provides a simple way to script the creation and destruction of NFTs o
 ## Setup
 
 * Run `yarn install`
+* Run `yarn build`
 * Run `cp env.example .env`
 * Create new wallet in Electron Cash SLP Edition named `fungal-spore-exploder`
 * Send 0.01 BCH to that wallet (to use for fees for creating NFTs, this is enough for 1000+ NFTs).
@@ -28,6 +29,10 @@ This repo provides a simple way to script the creation and destruction of NFTs o
 
 
 ## Run
+
+You can prefix these like `yarn -s` to hide yarn related output. 
+
+You can then redirect the txid result to a file like `yarn -s start makegroup "testtoken" > testtoken.txid`
 
 #### Each of these on success will result in a txid printed to console.
 
