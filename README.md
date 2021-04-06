@@ -21,10 +21,7 @@ This repo provides a simple way to script the creation and destruction of NFTs o
 * Run `yarn build`
 * Run `cp env.example .env`
 * Create new wallet in Electron Cash SLP Edition named `fungal-spore-exploder`
-* Send 0.01 BCH to that wallet (to use for fees for creating NFTs, this is enough for 1000+ NFTs).
-* Create a group token (Tokens tab -> Create New Token (Ensure "Is NFT Parent?" is enabled)
-* Send all of your group tokens to address at index 0 in wallet (addresses tab)
-* Send all BCH in wallet to same address as above
+* Send 0.01 BCH to address at index 0 in wallet (addresses tab)
 * Right click on address 0 and get its private key, put it in `FUNDING_WIF` variable in `.env`
 
 
